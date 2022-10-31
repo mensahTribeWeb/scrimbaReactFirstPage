@@ -1,10 +1,14 @@
-import React, {ReactDOM} from 'react';
+import React from 'react';
 import {createRoot} from 'react-dom/client';
 import './index.css';
-import Main from './Main';
-import Navbar from './Navbar';
-import Header from './Header';
-import reportWebVitals from './reportWebVitals';
+import Main from '../components/Main';
+import Navbar from '../components/Navbar';
+import Header from '../components/Header';
+import reportWebVitals from '../reportWebVitals';
+
+// componentDidMount(){
+//   return componentDidMount? console.log('component Did Mount') : console.log('component did not mount');
+// }
 
 const root = createRoot(document.getElementById('root'));
 root.render(
