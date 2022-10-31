@@ -1,7 +1,7 @@
 import React, {ReactDOM} from 'react';
 import {createRoot} from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Main from './Main';
 import Navbar from './Navbar';
 import Header from './Header';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Navbar/>
     <Header/>
-    <App />
+    <Main />
   </React.StrictMode>
 );
 

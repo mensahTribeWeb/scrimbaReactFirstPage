@@ -1,14 +1,10 @@
 import React from "react";
+import reactIcon from "./reactIcon.png"
 
 export default function Navbar() {
   return(
     <nav className="navBar">
-     <h1>MensahDomoah</h1>
-     <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Content</li>
-     </ul>
+     <img src={reactIcon} alt="" width={40}/>
     </nav>
   );
     
