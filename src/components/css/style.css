@@ -38,14 +38,16 @@ nav > h4 {
 .logo-title >  img {
  
   margin-right: 8px;
+  
 }
 
 .main{
   padding: 57px 27px; 
   color: white;
-  background-image: url(../mainLogo.png );
+  background-image: url(../reactIcon2.png );
   background-repeat: no-repeat;
   background-position: right 75%;
+  background-size: 20%;
 
 }
 
@@ -70,3 +72,4 @@ nav > h4 {
   font-size: 2rem;
   color: #61DAFB;
 }
+

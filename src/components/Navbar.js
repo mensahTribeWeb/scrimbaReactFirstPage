@@ -1,12 +1,12 @@
 import React from "react";
-import reactIcon from "./reactIcon.png"
+import reactIcon from "./reactjs-icon.png"
 
 
 export default function Navbar() {
   return(
     <nav className="nav">
       <div className="logo-title">
-        <img src={reactIcon} alt="" width={40}/>
+        <img className="reactIcon"src={reactIcon} alt="" width={40}/>
         <h3>ReactFacts</h3>
       </div>
       <div className="scrimProject">
